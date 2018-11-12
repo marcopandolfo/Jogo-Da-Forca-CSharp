@@ -68,6 +68,7 @@ namespace JogoDaForca
             }
 
             btn.Enabled = false;
+            btn.BackColor = System.Drawing.Color.Red;
             ChecarFinal();
         }
 
@@ -91,6 +92,7 @@ namespace JogoDaForca
             acentos = btn.Text.VerificaVetor();
             VerificarErros(acentos);
             btn.Enabled = false;
+            btn.BackColor = System.Drawing.Color.Red;
             ChecarFinal();
         }
 
